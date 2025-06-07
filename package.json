@@ -90,7 +90,7 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "ThaiDc2096N534",
   "license": "ISC",
@@ -98,6 +98,7 @@
   "devDependencies": {
     "eslint": "^9.28.0",
     "eslint-config-prettier": "^10.1.5",
+    "nodemon": "^3.1.10",
     "prettier": "^3.5.3"
   }
 }
