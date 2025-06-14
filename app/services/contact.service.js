@@ -27,7 +27,7 @@ class ContactService {
     );
     return result;
   }
-  // findByName
+
   async find(filter) {
     const cursor = await this.Contact.find(filter);
     return await cursor.toArray();
